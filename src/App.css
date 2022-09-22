@@ -41,9 +41,9 @@
 
 .img {
   background-image: url("./img/body.jpg");
-  min-width: 100%;
-  min-height: 100%;
-  background-size: 1270px 830px;
+  min-width: fit-content;
+  min-height: fit-content;
+  /* background-size: 1270px 830px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,6 +58,16 @@
   background-size: cover;
 }
 
+.about{
+ 
+  background-color: black;
+  opacity: .5;
+  color: white;  
+  background-size: cover;  
+  display: flex;
+  justify-content: flex-start;
+
+}
 
 /* font-family: 'Dosis', sans-serif;
 font-family: 'Lato', sans-serif;
