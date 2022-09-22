@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -32,7 +33,33 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.img {
+  background-image: url("./img/body.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background-size: 1270px 830px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scrol{
+  background-color: black;
+  color: ghostwhite;
+  margin: 0;
+  display: inline;
+  width: 49%;
+  background-size: cover;
+}
+
+
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Rancho', cursive; */
