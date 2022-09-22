@@ -7,9 +7,10 @@ import {
   Route
 } from "react-router-dom";
 import About from './component/About';
+import Contact from './component/Contact';
 // import photo from './img/body.jpg'
 
-function App(img) {
+function App() {
   return (
     <>
       <Router>
@@ -17,7 +18,8 @@ function App(img) {
           <Navbar />
           <Routes>
             <Route exact path="/" element={<Body />} />
-            <Route exact path="/About" element={<About />} />
+            <Route exact path="/About" element={<About/>} />
+            <Route exact path="/Contact" element={<Contact/>} />
             {/* <Route exact path="/" element={<Sec />} /> */}
           </Routes>
           

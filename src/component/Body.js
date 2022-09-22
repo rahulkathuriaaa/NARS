@@ -4,6 +4,7 @@ import Sec from './Sec'
 
 const Body = () => {
   return (
+    
     <>
       <section>
         <div className=" inline-block" style={{ width: '60%', padding: '20px 0 20px 100px' }} >

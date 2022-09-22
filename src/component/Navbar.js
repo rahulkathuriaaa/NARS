@@ -3,6 +3,7 @@ import MyImage from '../logo.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  
   return (
     <section>
 
@@ -47,7 +48,7 @@ const Navbar = () => {
                 <Link className="nav-link active " aria-current="page" to="/About" style={{ display: 'flex', alignItems: 'center', padding: '0 22px' }}>About</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active " aria-current="page" href="/Contecty" style={{ display: 'flex', alignItems: 'center', padding: '0 22px' }}>Contact</a>
+                <Link className="nav-link active " aria-current="page" to="/Contact" style={{ display: 'flex', alignItems: 'center', padding: '0 22px' }}>Contact</Link>
               </li>
 
 
